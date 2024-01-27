@@ -24,6 +24,7 @@ if (userYear === null || userCity === null || userSport === null) {
   );
 } 
 
+
 else {
   let message = `Your age is ${age}.`;
 
