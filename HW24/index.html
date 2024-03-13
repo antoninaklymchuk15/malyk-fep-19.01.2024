@@ -3,12 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css"
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-   <input type="text" id="taskInput" onfocus="showDiv()" onblur="hideDiv()">
-   <div id="taskDiv" style="display: none;"></div>
-    <script src="./main.js"></script>
+    <div class="slider">
+      <img class="slide" src="./img/1.jpg" alt="Slide 1" />
+      <img class="slide" src="./img/2.jpg" alt="Slide 2" />
+      <img class="slide" src="./img/3.jpg" alt="Slide 3" />
+      <img class="slide" src="./img/4.jpg" alt="Slide 4" />
+      <img class="slide" src="./img/5.jpg" alt="Slide 5" />
+      <div class="btns-container">
+        <button class="prevBtn">Prev</button>
+        <button class="nextBtn">Next</button>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
   </body>
 </html>
