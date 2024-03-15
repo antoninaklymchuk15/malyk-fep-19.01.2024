@@ -1,0 +1,14 @@
+
+body{
+    background-color:#F1EF99;
+}
+
+.slide{
+    width: 30%;
+}
+
+.btns-container {
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 10px;
+}
